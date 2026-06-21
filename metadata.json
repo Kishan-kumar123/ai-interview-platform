@@ -1,0 +1,6 @@
+{
+  "name": "AI Interview Prep Platform",
+  "description": "A comprehensive AI-powered interview preparation platform with real-time technical & HR mock interviews, coding practices, and resume analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
