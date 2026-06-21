@@ -1,20 +1,114 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Interview Platform
 
-# Run and deploy your AI Studio app
+AI Interview Platform is a full-stack web application designed to help students and job seekers prepare for technical, HR, and aptitude interviews through AI-powered mock interviews, coding practice, and resume analysis.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/728a5345-36ca-4f53-bdf7-b8e4062d2df0
+* AI-powered mock interviews
+* Technical interview preparation
+* HR interview question practice
+* Aptitude and reasoning tests
+* Coding practice challenges
+* Resume analyzer
+* User authentication (Register/Login)
+* Dashboard for tracking progress
+* Responsive and modern UI
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+### Frontend
 
+* React.js
+* Vite
+* JavaScript
+* CSS
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### AI Integration
+
+* Google Gemini AI
+
+## Project Structure
+
+```bash
+ai-interview-platform/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   └── routes/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── assets/
+│
+├── .env.example
+├── package.json
+└── vite.config.js
+```
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Kishan-kumar123/ai-interview-platform.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd ai-interview-platform
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Configure environment variables
+
+Create a `.env` file and add:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+APP_URL=http://localhost:3000
+```
+
+5. Start the development server
+
+```bash
+npm run dev
+```
+
+## Future Enhancements
+
+* AI feedback on interview answers
+* Voice-based mock interviews
+* Leaderboards and contests
+* Performance analytics
+* Company-specific interview preparation
+
+## Author
+
+**Kishan Kumar**
+
+* GitHub: https://github.com/Kishan-kumar123
+* LinkedIn: https://www.linkedin.com/in/kishan-kumar-26aa13296
+
+## License
+
+This project is created for learning, interview preparation, and portfolio purposes.
